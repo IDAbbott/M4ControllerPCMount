@@ -67,7 +67,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "cut-46e2d9d19bd8ba008c9c63a691b312c2e3e06d321f5044a44e7d5c946a92064d",
+            "geometry": "cut-876e8a834875c8a7a0153080ac120651bd5177a476d8a527242befe01e065e45",
             "tags": [],
             "bom": [],
             "plane": {
@@ -110,13 +110,13 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4InnerSupport"
+          "ioValue": "ControlPCBsupport"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4InnerSupport"
+      "partName": "ControlPCBsupport"
     },
     {
       "atomType": "Molecule",
@@ -286,7 +286,7 @@
             {
               "name": "Shape 8",
               "ioValue": {
-                "geometry": "singular-1ae3592f8248c3f879b56afe3f2ce6aad45ba898434796d35c565684397fb3e6",
+                "geometry": "singular-fe94b827f0455bee6f4a6a265286f827f18748ede569565ee827058085bad146",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -549,8 +549,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 34,
-              "currentEquation": "34"
+              "ioValue": 34
             }
           ]
         },
@@ -563,8 +562,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 26,
-              "currentEquation": "26"
+              "ioValue": 26
             }
           ]
         },
@@ -581,13 +579,11 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
-              "ioValue": 64,
-              "currentEquation": "64"
+              "ioValue": 64
             }
           ]
         },
@@ -911,7 +907,7 @@
             {
               "name": "Shape 11",
               "ioValue": {
-                "geometry": "fuse-fffa2e047d74d4172dd7f538fb0ce66ca61c27e3a457c40dcce7e1e7294c372d",
+                "geometry": "fuse-b26549a7d1ed27ce478bd6655a901c68fc8510be9603e97a5ef502331f5df4a5",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -1448,7 +1444,7 @@
                             "color": "#aad7f2"
                           },
                           {
-                            "geometry": "cut-f552b3bc13f2283f2fa1b185643edebed7ba2ed23049ab52012125dd09fffb39",
+                            "geometry": "cut-eaf5a68203deec0bee66a9934dbab99b1b95d269c9b2dc9c6bd91bf4744a4552",
                             "dimension": "3D",
                             "tags": [],
                             "plane": {
@@ -1568,7 +1564,7 @@
                             "color": "#aad7f2"
                           },
                           {
-                            "geometry": "cut-8b2689aa9bb90ae7fa6518a13ac0c20bb062f2ae5846387f4e51893b188acd08",
+                            "geometry": "cut-7cc9922e71189f4a9d39bd473e04ca643c127469f389dffc17ed34a299a91468",
                             "dimension": "3D",
                             "tags": [],
                             "plane": {
@@ -1688,7 +1684,7 @@
                             "color": "#aad7f2"
                           },
                           {
-                            "geometry": "cut-f51312b3e4e7956bc595efd6be539ec91844fdb2e76a4ec1ca90ab89ed3209ee",
+                            "geometry": "cut-51cac9f34168bd5404275228d02699919e55ef3a811e2e39f12073c4580b03ec",
                             "dimension": "3D",
                             "tags": [],
                             "plane": {
@@ -1734,7 +1730,7 @@
                         "color": "#aad7f2"
                       },
                       {
-                        "geometry": "move-b5c14e9827bd3b8ef204c3f5153610fed4638cd9bc9dd89769bf993fd4825305",
+                        "geometry": "move-1f48dc091272db1b1c07dd9248660e753040e83a9a94ba67fa113b05cea0363d",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -1860,7 +1856,7 @@
                             "bom": []
                           },
                           {
-                            "geometry": "move-908bc2f9a4249d89ce0d3c9815c7aaeff6d5c6a5c776c053e323cacc6c2a574c",
+                            "geometry": "move-7e5f3325d6afcad96f849ab6a9ddf73f885b790ac196e527983bd06d48180286",
                             "dimension": "3D",
                             "tags": [],
                             "plane": {
@@ -1980,7 +1976,7 @@
                             "bom": []
                           },
                           {
-                            "geometry": "move-e86db08078419382e50b84e642e486ca9796c06e47a379db61bac7183b8c1cc0",
+                            "geometry": "move-39aaa56e9c07d10beb5359f2f3f4bed9cd14ca1d2e571864a2159232671d2d98",
                             "dimension": "3D",
                             "tags": [],
                             "plane": {
@@ -2100,7 +2096,7 @@
                             "bom": []
                           },
                           {
-                            "geometry": "move-01faab703f64d26f595ce6aa805d489051d561cc5050ad2b7f0d10eb4918da21",
+                            "geometry": "move-f0fd71ff9818cbd188773edce2e44da1a09442ea4db8ea7eae163847dd716d6f",
                             "dimension": "3D",
                             "tags": [],
                             "plane": {
@@ -2146,7 +2142,7 @@
                         "bom": []
                       },
                       {
-                        "geometry": "move-773f413e20366ff078bd94ae27a908f9a201fa8e39c2202d5e4968e48aa53725",
+                        "geometry": "move-732e0062ed1996a06a83da80e6f16f93a4b85fc66cb2246897a5848eb9fce374",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -2574,7 +2570,7 @@
                 {
                   "name": "Shape 4",
                   "ioValue": {
-                    "geometry": "move-b5c14e9827bd3b8ef204c3f5153610fed4638cd9bc9dd89769bf993fd4825305",
+                    "geometry": "move-1f48dc091272db1b1c07dd9248660e753040e83a9a94ba67fa113b05cea0363d",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
