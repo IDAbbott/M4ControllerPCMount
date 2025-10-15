@@ -67,7 +67,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "cut-dbee6f9b3df788181336c72d0aa7198b284162e5e3eedd23da70f53a18236e0c",
+            "geometry": "cut-72f7080a0dc4cd41d2905f950458d5ed09e336e7785b485053a3255d65d7cad2",
             "tags": [],
             "bom": [],
             "plane": {
@@ -829,8 +829,8 @@
     {
       "atomType": "Molecule",
       "name": "VacantSpace",
-      "x": 0.1416289592760181,
-      "y": 0.6124999999999999,
+      "x": 0.1411764705882353,
+      "y": 0.5979166666666667,
       "uniqueID": 1745802265475,
       "ioValues": [],
       "topLevel": false,
@@ -907,7 +907,7 @@
             {
               "name": "Shape 11",
               "ioValue": {
-                "geometry": "fuse-38e751d89a1606866fc2def24761dd8034627d7dbfaff00e9f520ab40641dfab",
+                "geometry": "fuse-a9622895efbc0c23c36fc2b96836b59a2742937ae187db3949a6ca67af44fa8c",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -1276,8 +1276,8 @@
             {
               "atomType": "Move",
               "name": "Move",
-              "x": 0.27957860615883307,
-              "y": 0.25829383886255924,
+              "x": 0.28009049773755657,
+              "y": 0.25625000000000003,
               "uniqueID": 1745808926302,
               "ioValues": [
                 {
@@ -1314,8 +1314,8 @@
             {
               "atomType": "Extrude",
               "name": "Extrude",
-              "x": 0.20502431118314424,
-              "y": 0.4146919431279621,
+              "x": 0.2072398190045249,
+              "y": 0.47083333333333327,
               "uniqueID": 1745808926514,
               "ioValues": [
                 {
@@ -1390,8 +1390,8 @@
             {
               "atomType": "Rotate",
               "name": "Rotate",
-              "x": 0.51,
-              "y": 0.5035128805620609,
+              "x": 0.5135746606334841,
+              "y": 0.5270833333333333,
               "uniqueID": 1745809180707,
               "ioValues": [
                 {
@@ -1411,8 +1411,8 @@
             {
               "atomType": "Fusion",
               "name": "Fusion",
-              "x": 0.8063209076175041,
-              "y": 0.31042654028436023,
+              "x": 0.8090497737556561,
+              "y": 0.3104166666666667,
               "uniqueID": 1745809237908,
               "ioValues": [
                 {
@@ -1836,7 +1836,7 @@
                           {
                             "geometry": [
                               {
-                                "geometry": "move-e19cecb992c1b68e1563fbe791f221b49d1afdda961379c6561a1ca02f7e73b5",
+                                "geometry": "move-4b1c4b00930b949160f2f268bacfc71ffe4883ea422896c288b2d193d696d479",
                                 "tags": [],
                                 "color": "#aad7f2",
                                 "bom": [],
@@ -1860,7 +1860,7 @@
                                 "dimension": "3D"
                               },
                               {
-                                "geometry": "move-34e5190668827109e3f8af9b40b59366799159360c691be43b3ab56019e2e1e2",
+                                "geometry": "move-8dfe1158c1fca08ca3c8d61caffaf68451b73348135f9dcdf62358b527c77fe1",
                                 "tags": [],
                                 "color": "#aad7f2",
                                 "bom": [],
@@ -1906,7 +1906,7 @@
                             "bom": []
                           },
                           {
-                            "geometry": "move-882143fd0f145c024963e73096c6663352db60e6d2bcdb0f3dc90bb85a5570f0",
+                            "geometry": "move-38f99cd05acf8fd76f651d05758126e4079242c96c7698cf749a172a23880fb7",
                             "dimension": "3D",
                             "tags": [],
                             "plane": {
@@ -1956,7 +1956,7 @@
                           {
                             "geometry": [
                               {
-                                "geometry": "move-fa915c3db9e858f896cfb16c9bca2d6cf52a950a7f3372560bd27ef3ff88228a",
+                                "geometry": "move-f33789372e62653542b75f15f06e1dd84ee87a7743a930287e28874d5a5c341a",
                                 "tags": [],
                                 "color": "#aad7f2",
                                 "bom": [],
@@ -1980,7 +1980,7 @@
                                 "dimension": "3D"
                               },
                               {
-                                "geometry": "move-36262984cec0ac51c0db89fc10db4e8f8ce23bc2efce487c3717d335e0a714b8",
+                                "geometry": "move-cacc954fc67dd23f4d11584c2d7d8cf6244682321715617d96ca216f3e94d44b",
                                 "tags": [],
                                 "color": "#aad7f2",
                                 "bom": [],
@@ -2026,7 +2026,7 @@
                             "bom": []
                           },
                           {
-                            "geometry": "move-b16125f911e3a8e006f4c679dec7fd4a17a87c219f275d41258f654e51495180",
+                            "geometry": "move-a2c891114decd29ecb9e7154031efd17080e86a89898c37df815ae388d07fd39",
                             "dimension": "3D",
                             "tags": [],
                             "plane": {
@@ -2076,7 +2076,7 @@
                           {
                             "geometry": [
                               {
-                                "geometry": "move-140f50890077f8ebda3df9e426f7f8c1bcd4187c73dd6e0450c43440f4848a79",
+                                "geometry": "move-65b2df7f57d0df7cebdc320704f2a68058ead64c54f07c2ded2cd8c6bbe611d8",
                                 "tags": [],
                                 "color": "#aad7f2",
                                 "bom": [],
@@ -2100,7 +2100,7 @@
                                 "dimension": "3D"
                               },
                               {
-                                "geometry": "move-7c42e361d87439c3e00523bc90d91a6bface073259e8cb304dd31032128719bc",
+                                "geometry": "move-37c95a1402b116fe8cfa0f0b4428475fe0a09754d32b370e6946eb7a0ace130f",
                                 "tags": [],
                                 "color": "#aad7f2",
                                 "bom": [],
@@ -2146,7 +2146,7 @@
                             "bom": []
                           },
                           {
-                            "geometry": "move-b2ab2ecf5b26347963d4d708c666eb055cca06fe41eedb179cb52cc87984b5fc",
+                            "geometry": "move-1867080efd5aecf0e58c9a89894aa2c64981461fcf4c5d570bc240c2c21ffef3",
                             "dimension": "3D",
                             "tags": [],
                             "plane": {
@@ -2192,7 +2192,7 @@
                         "bom": []
                       },
                       {
-                        "geometry": "move-3fb8ac48a93f51d6c02c9c546f8cc919b52e8fdf2bd25cc75d061ebd904213c2",
+                        "geometry": "move-954421c7ed0577fe19f8148733a9648ee09f03e246a71749a2fbcc9d8acfa391",
                         "dimension": "3D",
                         "tags": [],
                         "plane": {
@@ -2747,27 +2747,10 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 88
+                  "ioValue": 84,
+                  "currentEquation": "84"
                 }
               ]
-            },
-            {
-              "atomType": "Equation",
-              "name": "x + y",
-              "x": 0.5,
-              "y": 0.5,
-              "uniqueID": 1746753520286,
-              "ioValues": [
-                {
-                  "name": "x",
-                  "ioValue": 1
-                },
-                {
-                  "name": "y",
-                  "ioValue": 1
-                }
-              ],
-              "currentEquation": "x + y"
             },
             {
               "atomType": "Circle",
