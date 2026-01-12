@@ -52,14 +52,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4InnerSupportTest",
-          "currentEquation": "M4InnerSupport"
+          "ioValue": "M4InnerSupportMount",
+          "currentEquation": "M4InnerSupportMount"
         }
       ],
       "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4InnerSupportTest"
+      "partName": "M4InnerSupportMount"
     },
     {
       "atomType": "Difference",
@@ -124,6 +124,30 @@
       "partName": "ControlPCBsupport"
     },
     {
+      "atomType": "Move",
+      "x": 0.4675174013921114,
+      "y": 0.580168776371308,
+      "uniqueID": "id-224",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 40
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
       "x": 0.12674825174825174,
       "y": 0.2,
@@ -155,7 +179,7 @@
             },
             {
               "name": "height",
-              "ioValue": 80
+              "ioValue": 78
             }
           ]
         },
@@ -220,7 +244,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "extrude-circle-13-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-80",
+                "geometry": "extrude-circle-13-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-78",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -274,7 +298,7 @@
             {
               "name": "Shape 7",
               "ioValue": {
-                "geometry": "move-rotate-fuse-fuse-rotate-extrude-move-circle-4.5-13.8-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-0-0-rotate-extrude-move-circle-4.5-13.8-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-0-120-rotate-extrude-move-circle-4.5-13.8-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-0-240-180-0-0-0-0-80",
+                "geometry": "move-rotate-fuse-fuse-rotate-extrude-move-circle-4.5-13.8-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-0-0-rotate-extrude-move-circle-4.5-13.8-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-0-120-rotate-extrude-move-circle-4.5-13.8-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-0-240-180-0-0-0-0-78",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -483,7 +507,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 80
+              "ioValue": 78
             }
           ]
         },
@@ -493,7 +517,7 @@
           "y": 0.31666666666666665,
           "uniqueID": 1745806152836,
           "name": "Length",
-          "value": 80
+          "value": 78
         },
         {
           "atomType": "Constant",
@@ -2546,31 +2570,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Move",
-      "x": 0.4675174013921114,
-      "y": 0.580168776371308,
-      "uniqueID": "id-224",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 40
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -2605,6 +2604,11 @@
       "ap2ID": 1745802181611
     },
     {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-224",
+      "ap2ID": "065614db-cf33-402a-be86-4a1f72f593d8"
+    },
+    {
       "ap2Name": "geometry1",
       "ap1ID": 1745802195632,
       "ap2ID": "9677aa0b-b7be-4f49-b13a-7dd3712942fd"
@@ -2613,11 +2617,6 @@
       "ap2Name": "geometry",
       "ap1ID": 1745802265475,
       "ap2ID": 1745805102912
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-224",
-      "ap2ID": "065614db-cf33-402a-be86-4a1f72f593d8"
     }
   ],
   "unitsKey": "MM",
