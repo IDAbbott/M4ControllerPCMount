@@ -3124,8 +3124,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.682261208576998,
-      "y": 0.7741176470588235,
+      "x": 0.7787524366471735,
+      "y": 0.17882352941176471,
       "uniqueID": "id-1229",
       "name": "Label_Bounding_Box",
       "ioValues": [
@@ -3369,19 +3369,14 @@
       "ap2ID": "id-224"
     },
     {
+      "ap2Name": "Shape",
+      "ap1ID": "9677aa0b-b7be-4f49-b13a-7dd3712942fd",
+      "ap2ID": "id-1229"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "065614db-cf33-402a-be86-4a1f72f593d8",
       "ap2ID": 1745808374784
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "065614db-cf33-402a-be86-4a1f72f593d8",
-      "ap2ID": 1745802181611
-    },
-    {
-      "ap2Name": "Shape",
-      "ap1ID": "065614db-cf33-402a-be86-4a1f72f593d8",
-      "ap2ID": "id-1229"
     },
     {
       "ap2Name": "Shape 2",
@@ -3397,6 +3392,11 @@
       "ap2Name": "geometry",
       "ap1ID": 1745802265475,
       "ap2ID": 1745805102912
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-1229",
+      "ap2ID": 1745802181611
     }
   ],
   "unitsKey": "MM",
